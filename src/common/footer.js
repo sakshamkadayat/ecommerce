@@ -9,10 +9,7 @@ export function Footer() {
             ECOMMERCE<span>WEB</span>
           </h3>
 
-          <p class="footer-links">
-            <a href="#">Home</a>|<a href="#">About</a>|<a href="#">Contact</a>
-            
-          </p>
+          
 
           <p class="footer-company-name">
             Copyright © 2022 <strong>Saksham</strong> All rights reserved

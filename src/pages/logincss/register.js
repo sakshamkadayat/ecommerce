@@ -56,6 +56,7 @@ export function Register() {
        
      </div>
 </Container>
+
     </>
   );
 }

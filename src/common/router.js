@@ -5,6 +5,7 @@ import {Shop} from "../pages/shop"
 import {Contact} from '../pages/contact';
 import {Login} from "../pages/login";
 import { Register } from "../pages/logincss/register";
+import { Error } from "../pages/error";
 
 export function Rout(){
 
@@ -22,6 +23,7 @@ export function Rout(){
                     
                     
                     </Route>
+                    <Route exact path="*" element={<Error></Error>}></Route>
             </Routes>
         </BrowserRouter>
         

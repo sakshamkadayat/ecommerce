@@ -6,7 +6,7 @@ export function Login(){
  return(
     <>
     <Container>  
-        <div>    
+        <div className="main-container">    
             <div className="imgcontainer">
             <img src={image} alt="Avatar" class="avatar"/>
             </div>

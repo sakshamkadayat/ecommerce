@@ -1,40 +1,32 @@
 import "./footer.css";
-
+import {Navbar,Container} from 'react-bootstrap';
+import saksham from "../pictures/logo.png";
 export function Footer() {
   return (
     <>
-      <footer class="footer-distributed">
-        <div class="footer-left">
-          <h3>
-            ECOMMERCE<span>WEB</span>
-          </h3>
+   
+  <div className="footer_sak">
+  <Navbar fixed="bottom" >
+  <Navbar bg="dark" className="footer_a">
+  <Container>
+    <div className="image">
+    <Navbar.Brand href="#home" >
+      <img
+        src={saksham}
+        width="80"
+        height="80"
+        className="d-inline-block align-top"
+        alt="React Bootstrap logo"
+      /> 
+    </Navbar.Brand>
+    
+    </div>
+  </Container>
+  <Navbar.Brand to="/home"> © copyright saksham </Navbar.Brand>
 
-          
-
-          <p class="footer-company-name">
-            Copyright © 2022 <strong>Saksham</strong> All rights reserved
-          </p>
-        </div>
-
-        <div class="footer-center">
-          <div>
-            <i class="fa fa-map-marker"></i>
-            <p>
-              <span>Santinagar</span>
-              Kathmandu
-            </p>
-          </div>
-
-          <div>
-            <i class="fa fa-envelope"></i>
-            <p>
-              <a href="mailto:sakshamkadayat@gmail.com">
-                sakshamkadayat@gmail.com
-              </a>
-            </p>
-          </div>
-        </div>
-      </footer>
+  </Navbar>
+  </Navbar>
+  </div>
     </>
   );
 }

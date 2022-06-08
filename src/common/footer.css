@@ -1,119 +1,23 @@
-
-
-/* The footer is fixed to the bottom of the page */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-/* footer {
-    
-    position:absolute;
-    bottom:0;
-    
+/* *body{
+    position: relative;
+    margin: 40px;
 } */
-
-.footer-distributed {
-    background-color: black;
-    box-sizing: border-box;
+.footer_sak{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: aliceblue;
     width: 100%;
-    text-align: left;
-    font: bold 16px sans-serif;
-    padding: 50px ;
-    margin-top:40px;
-    border-bottom: #33383b;
 }
 
-.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
-    display: inline-block;
-    vertical-align: top;
+.image{
+margin: 3vh;
+box-sizing: border-box;
 }
 
+.footer_a{
 
-
-
-
-.footer-distributed h3 {
-    color: #ffffff;
-    font: normal 36px 'Cookie', cursive;
-    margin: 0;
+    width: 100%;
+    padding: 10px;
+   bottom: -13px;
 }
-
-
-.footer-distributed h3 span {
-    color: #e0ac1c;
-}
-
-
-
-.footer-distributed .footer-company-name {
-    color:white;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
-}
-
-
-
-.footer-distributed .footer-center i {
-    background-color: #33383b;
-    color: #ffffff;
-    font-size: 25px;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 42px;
-    margin: 10px 15px;
-    vertical-align: middle;
-}
-
-.footer-distributed .footer-center i.fa-envelope {
-    font-size: 17px;
-    line-height: 38px;
-}
-
-.footer-distributed .footer-center p {
-    display: inline-block;
-    color: #ffffff;
-    vertical-align: middle;
-    margin: 0;
-}
-
-.footer-distributed .footer-center p span {
-    display: block;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 2;
-}
-
-.footer-distributed .footer-center p a {
-    color: #e0ac1c;
-}
-/* 
-@media screen and(max-width: 880px) {
-    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed  {
-        
-        width: 10%;
-        height: 100px;
-        text-align: left;
-        
-    }
-   
-}   */
-
-
-@media only screen and (max-width: 800px) {
-    .footer-distributed {
-        font-size: 1rem;
-      height: 200px;
-width: 100%;
-    }
-  }
-
-
-
-        
-
-
-        

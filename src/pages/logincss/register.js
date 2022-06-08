@@ -7,7 +7,7 @@ export function Register() {
   return (
     <>
     <Container>  
-    <div>    
+       
     <br></br>
     
   
@@ -53,8 +53,8 @@ export function Register() {
             </Col>
             </Form.Group>
         </Form>
-       
-     </div>
+      
+   
 </Container>
 
     </>

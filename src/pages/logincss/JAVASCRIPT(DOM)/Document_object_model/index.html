@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT DOM</title>
+    <style>
+        .test{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            display:none;
+            text-align: right;
+            
+          
+        }
+       
+    </style>
+</head>
+<body>
+    
+
+
+<h2 id="apple" >Hi! Welcome </h2>
+<div class="test">
+  
+</div>
+<button id="btn">click me</button>
+
+
+     <script >
+let colors=["red","blue","green","pink"];
+
+       function Test(){
+
+
+        document.getElementById("btn").addEventListener('click',function(){
+
+let rand = parseInt(Math.random()*colors.length)
+document.getElementsByClassName('test')[0].style.display="block";
+document.getElementsByClassName('test')[0].style.background=colors[rand];
+
+
+
+ })
+
+       }
+
+setInterval(Test,2000);
+
+
+    // document.getElementById("apple").innerHTML="Sexy boy Bibek is on live"
+    // document.getElementById("apple").style.color="red"
+// function printName(){
+//    setTimeout(() => {document.getElementById("apple").innerHTML="S";
+//    document.getElementById("apple").style.color="blue";
+       
+//    }, 1000);
+//    setTimeout(() => {document.getElementById("apple").innerHTML="A";
+   
+//    document.getElementById("apple").style.color="red";
+       
+//    }, 2000); 
+//    setTimeout(() => {document.getElementById("apple").innerHTML="K"
+//    document.getElementById("apple").style.color="green";
+       
+//    }, 3000); 
+//    setTimeout(() => {document.getElementById("apple").innerHTML="S"
+//    document.getElementById("apple").style.color="blue";
+//    }, 4000); 
+//    setTimeout(() => {document.getElementById("apple").innerHTML="H"
+//    document.getElementById("apple").style.color="yellow";
+//    }, 5000); 
+//    setTimeout(() => {document.getElementById("apple").innerHTML="A"
+//    document.getElementById("apple").style.color="brown";
+       
+//    }, 6000); 
+//    setTimeout(() => {document.getElementById("apple").innerHTML="M"
+//    document.getElementById("apple").style.color="red";
+       
+//    }, 7000);  
+//    setTimeout(() => {document.getElementById("apple").innerHTML="SAKSHAM"
+       
+//    }, 8000);
+// }
+ 
+// printName();
+// setInterval(printName,6000);
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

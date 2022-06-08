@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import "../common/header.css";
 import image from "../pictures/pofile.png"
 import"../pages/logincss/form.css";
+import saksham from "../pictures/logo.png";
 
 export function Header() {
   return (
@@ -12,6 +13,15 @@ export function Header() {
    
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container className="Nav">
+        <div className="image">
+    <Navbar.Brand href="#home" >
+      <img
+        src={saksham}
+        width="60"
+        height="60"
+     />   
+    </Navbar.Brand>
+    </div>
           <Navbar.Brand to="/home">Ecommerce_web</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

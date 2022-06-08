@@ -5,7 +5,8 @@ export function Login(){
 
  return(
     <>
-    <Container>  
+<div className="Big_div">
+<Container>
         <div className="main-container">    
             <div className="imgcontainer">
             <img src={image} alt="Avatar" class="avatar"/>
@@ -42,9 +43,9 @@ export function Login(){
                     </Col>
                     </Form.Group>
                 </Form>
-               
-             </div>
-        </Container>
+               </div>
+             </Container>
+             </div>        
 </>
  );
     

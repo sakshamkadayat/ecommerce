@@ -7,6 +7,8 @@ import {Login} from "../pages/login";
 import { Register } from "../pages/logincss/register";
 import { Error } from "../pages/error";
 import { Cart } from "../pages/cart";
+import { Headphone } from "../pages/crarddetails/headphone";
+
 
 export function Rout(){
 
@@ -22,8 +24,8 @@ export function Rout(){
                     <Route  path='/contact-us' element={<Contact></Contact>}></Route>
                     <Route  path='/login'  element={<Login></Login>}></Route>
                     <Route  path="/register" element={<Register></Register>}></Route>
-                    <Route  path ="pages/cart.js"  element={<Cart></Cart>}></Route>                    
-            
+                    <Route  path ="pages/cart.js"  element={<Cart></Cart>}></Route>  
+                    <Route path="pages/crarddetails/headphone.js"  element={<Headphone></Headphone>}></Route>
                     </Route>
                     <Route  path="*" element={<Error></Error>}></Route>
             </Routes>

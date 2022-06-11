@@ -1,14 +1,23 @@
-import "./cssdesign/home.css";
-import pic from "../pictures/pic.png"
+
+import "../pages/cssdesign/home.css";
+
 export function Home() {
+  
   return (
     <>
-    <div className="Gaire">
-    <h2>This side is under Construction</h2> 
-    <img src={pic} ></img>
+    <div className="App">
+
+<h3>This site is under Construction</h3>
+
+
+
+
     </div>
     
-      
+    
+
+    
+    
     </>
   );
 }

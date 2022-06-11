@@ -9,7 +9,9 @@ export function Footer() {
   <Navbar fixed="bottom" >
   <Navbar bg="dark" className="footer_a">
   <Container>
+    
     <div className="image">
+      
     <Navbar.Brand href="#home" >
       <img
         src={saksham}
@@ -19,12 +21,15 @@ export function Footer() {
         alt="React Bootstrap logo"
       /> 
     </Navbar.Brand>
-    
+   <hr></hr>
+    Hamro Pasal
     </div>
   </Container>
-  <Navbar.Brand to="/home"> © copyright saksham </Navbar.Brand>
-
+  
+  <Navbar.Brand to="/home"> © copyright Hamro Pasal</Navbar.Brand>
+  
   </Navbar>
+  
   </Navbar>
   </div>
     </>

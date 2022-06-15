@@ -9,12 +9,13 @@ import pic5 from "../pictures/pic5";
 import headphone from "../pictures/headphone";
 import shoe from "../pictures/shoe";
 import knife from "../pictures/knife";
-import { Headphone } from "./crarddetails/headphone";
+
 
 
 export function Shop() {
   return (
     <>     
+    <hr></hr>
       <div className="cards">
         <div>
           <img src={iphone}></img>
@@ -57,7 +58,7 @@ export function Shop() {
           <img src={headphone}></img>
           <p>headphone</p>
           <h1>Price: 3500 NPR</h1>
-          <a href="../pages/crarddetails/headphone.js">
+          <a href="../pages/cart.js">
             <button>
               <FontAwesomeIcon icon={faHeart} />
               Buy now
@@ -143,6 +144,65 @@ export function Shop() {
           </a>
         </div>
 
+        <div>
+          <img src={pic5}></img>
+          <p>watch</p>
+          <h1>Price: 2500 NPR</h1>
+          <a href="../pages/cart.js">
+            <button>
+              <FontAwesomeIcon icon={faHeart} />
+              Buy now
+            </button>
+          </a>
+        </div>
+
+        <div>
+          <img src={headphone}></img>
+          <p>headphone</p>
+          <h1>Price: 3500 NPR</h1>
+          <a href="../pages/cart.js">
+            <button>
+              <FontAwesomeIcon icon={faHeart} />
+              Buy now
+            </button>
+          </a>
+        </div>
+        <div>
+          <img src={pic5}></img>
+          <p>watch</p>
+          <h1>Price: 2500 NPR</h1>
+          <a href="../pages/cart.js">
+            <button>
+              <FontAwesomeIcon icon={faHeart} />
+              Buy now
+            </button>
+          </a>
+        </div>
+
+        <div>
+          <img src={headphone}></img>
+          <p>headphone</p>
+          <h1>Price: 3500 NPR</h1>
+          <a href="../pages/cart.js">
+            <button>
+              <FontAwesomeIcon icon={faHeart} />
+              Buy now
+            </button>
+          </a>
+        </div>
+        <div>
+          <img src={pic5}></img>
+          <p>watch</p>
+          <h1>Price: 2500 NPR</h1>
+          <a href="../pages/cart.js">
+            <button>
+              <FontAwesomeIcon icon={faHeart} />
+              Buy now
+            </button>
+          </a>
+        </div>
+
+        
       </div>
    
     </>

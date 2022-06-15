@@ -21,8 +21,7 @@ export function Footer() {
         alt="React Bootstrap logo"
       /> 
     </Navbar.Brand>
-   <hr></hr>
-    Hamro Pasal
+
     </div>
   </Container>
   

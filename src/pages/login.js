@@ -1,16 +1,21 @@
-import image from "../pictures/user.gif"
+
 import "../pages/logincss/form.css";
 import { Form,Col,Row,Button, Container } from "react-bootstrap";
 export function Login(){
 
  return(
     <>
+    <br></br>
+    <h2 className="text">
+
+        Login Page
+    </h2>
+    <hr>
+    </hr>
 <div className="Big_div">
 <Container>
         <div className="main-container">    
-            <div className="imgcontainer">
-            <img src={image} alt="Avatar" class="avatar"/>
-            </div>
+           
       
                 <Form>
                     <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">

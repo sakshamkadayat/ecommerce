@@ -22,7 +22,7 @@ export function Header() {
      />   
     </Navbar.Brand>
     </div>
-          <Navbar.Brand to="/home">Ecommerce_web</Navbar.Brand>
+          <Navbar.Brand to="/home">Hamro Pasal</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">

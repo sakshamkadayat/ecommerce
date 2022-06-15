@@ -1,5 +1,4 @@
 
-
 .cards{
 
     display: flex;
@@ -9,18 +8,25 @@
     margin-top: 20px;
     margin-bottom: 38px;
     padding-bottom: 40vh;
+  
 }
+
+ 
 
 .cards div{
 
 position: relative;
 width: 320px;
 height: 400px;
-border: 2px solid lightgrey;
+border: 2px solid grey;
 margin: 10px;
 text-align: center;
 padding: 7px;
+border-radius: 18px;
+
 }
+
+
 
 
 .cards div a button:hover{
@@ -53,11 +59,11 @@ padding: 7px;
 .cards div button{
 
     position: absolute;
-    transform: translate(-40%, -10%);
+    transform: translate(-40%, -19%);
     background-color: #f1f1f1;
     color: black;
     font-size: 13px;
-    padding: 6px;
+    padding: 7px;
     border-radius: 15px;
     
 } 
